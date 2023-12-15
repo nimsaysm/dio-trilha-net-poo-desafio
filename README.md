@@ -1,8 +1,5 @@
-# DIO - Trilha .NET - Programação orientada a objetos
-www.dio.me
-
 ## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+Para este desafio, foram utilizados conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
 
 ## Contexto
 Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
@@ -20,3 +17,8 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Adição de funcionalidades
+Além das funcionalidades solicitadas, adicionei mais duas:
+- Passagem de parâmetros com o telefone para qual a pessoa irá ligar;
+- Ao instalar o aplicativo, além do nome deve ser passado a memória do App. Assim, é calculada a memória restante do smartphone (devido à isso, a propriedade Memória se tornou do tipo protegida ao invés de privada, uma vez que precisava ser manipulada por suas classes filhas).
